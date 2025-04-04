@@ -1,0 +1,9 @@
+{
+    "TOKEN":"token",
+    "blacklistRoles": ["blacklistrolid"],
+    "channelIds": "logkanalild",
+    "roleadd": "verilecekrolid", 
+	"triggerWords": ["/majorcraft", "@majorcraft"]  
+}
+
+

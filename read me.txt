@@ -1,0 +1,20 @@
+Bu programı kullanmadan önce, setup.bat dosyasını çalıştırmalısınız veya manuel olarak modülleri yüklemelisiniz.
+Bu program, özel duruma belirttiğiniz kelimeler için oto rol vermenize olanak sağlamaktadır.
+
+config.json dosyasını aşağıdaki şekilde düzenlemelisiniz.
+
+{
+    "TOKEN":"token",
+    "blacklistRoles": ["blacklistrolid"],
+    "channelIds": "logkanalid",
+    "roleadd": "verilecekrolid",
+    "triggerWords": ["/rave", "@rave"]
+}
+
+triggerWords alanına birden fazla bir şeyler yazabilirsiniz.
+blacklistRoles alanına birden fazla rol ekleyebilirsiniz.
+Bu bilgileri eksiksiz doldurmanız gerekmektedir, yoksa bot düzgün çalışmaz.
+
+start.bat dosyasını çalıştırarak programı kullanmaya başlayabilirsiniz.
+
+İyi kullanımlar dilerim
